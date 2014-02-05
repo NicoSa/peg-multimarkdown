@@ -416,9 +416,12 @@
 			baseConfigurationReference = 65F89EB913E37BEF006A34B8 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				HEADER_SEARCH_PATHS = .;
 				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = multimarkdown;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,13 +430,16 @@
 			baseConfigurationReference = 65F89EBA13E37C2A006A34B8 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COPY_PHASE_STRIP = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PREFIX_HEADER = MarkdownMacPrefix.h;
 				HEADER_SEARCH_PATHS = .;
 				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "-DSTANDALONE_MAC_VERSION=1";
 				PRODUCT_NAME = multimarkdown;
+				PROVISIONING_PROFILE = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 			};
@@ -447,12 +453,14 @@
 					ppc,
 					x86_64,
 				);
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "58294F57-1CCD-4C85-9B13-A11C463A08E8";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -465,11 +473,13 @@
 					ppc,
 					x86_64,
 				);
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "58294F57-1CCD-4C85-9B13-A11C463A08E8";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -484,6 +494,7 @@
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
 			};
 			name = Debug;
@@ -494,6 +505,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
 			};
 			name = Release;
@@ -504,6 +516,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
 			};
 			name = "Release10.6+";
@@ -516,11 +529,13 @@
 					ppc,
 					x86_64,
 				);
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "58294F57-1CCD-4C85-9B13-A11C463A08E8";
 				SDKROOT = macosx;
 			};
 			name = "Release10.6+";
@@ -530,9 +545,12 @@
 			baseConfigurationReference = 65F89E8113E379ED006A34B8 /* Release10.6+.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				HEADER_SEARCH_PATHS = .;
 				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = multimarkdown;
+				PROVISIONING_PROFILE = "";
 			};
 			name = "Release10.6+";
 		};
