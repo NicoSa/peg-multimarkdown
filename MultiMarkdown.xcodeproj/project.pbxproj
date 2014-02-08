@@ -489,6 +489,7 @@
 			baseConfigurationReference = 65F89EB913E37BEF006A34B8 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -496,6 +497,7 @@
 				HEADER_SEARCH_PATHS = .;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -504,9 +506,11 @@
 			baseConfigurationReference = 65F89EBA13E37C2A006A34B8 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				HEADER_SEARCH_PATHS = .;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -515,9 +519,11 @@
 			baseConfigurationReference = 65F89E8113E379ED006A34B8 /* Release10.6+.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				HEADER_SEARCH_PATHS = .;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MultiMarkdown;
+				PROVISIONING_PROFILE = "";
 			};
 			name = "Release10.6+";
 		};
@@ -568,10 +574,12 @@
 		651A542B13E20D2400BCB02A /* Release10.6+ */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "MultiMarkdown Tests";
+				PROVISIONING_PROFILE = "";
 				ZERO_LINK = NO;
 			};
 			name = "Release10.6+";
@@ -600,20 +608,24 @@
 		65F0B8EB13DF714F00D0980C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "MultiMarkdown Tests";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		65F0B8EC13DF714F00D0980C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "MultiMarkdown Tests";
+				PROVISIONING_PROFILE = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;
